@@ -57,7 +57,7 @@ ds_test_task/
 
 ## Usage
 
-Run jupyter notebook. They are in `notebooks` folder.
+Run jupyter notebooks. They are in `notebooks` folder.
 
 ## About project pipeline
 
