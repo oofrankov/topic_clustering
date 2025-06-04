@@ -64,6 +64,8 @@ Run jupyter notebook. They are in `notebooks` folder.
 1. The topic clustering was implemented using BERTopic. It is a SOTA approach for this kind of task.
 It performs better than other methods such as: LDA, NMF, Top2Vec.
 It also has lower computational costs than LDA and NMF.
+Additionally, BERTopic can identify outliers - documents that don't fit well into any topic cluster,
+ which helps to filter out noise and irrelevant content from the analysis.
 
 2. For clustering were used text attributes: `'Заголовок'` + `. ` + `'Опис'` (`Header` + `Description`)
 and the day from `'Дата'` (`Date`).
